@@ -2,7 +2,7 @@ import { SecondaryButton } from './ui/secondary-button';
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 h-[70px] flex items-center justify-between px-6 bg-transparent">
+    <nav className="absolute top-0 left-0 right-0 z-50 h-[70px] flex items-center justify-between px-6 bg-transparent">
       <div className="flex items-center">
         <div className="text-white text-xl font-bold">Chart Shastra</div>
       </div>

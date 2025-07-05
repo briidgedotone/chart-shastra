@@ -103,7 +103,7 @@ export default function Home() {
             <div className="absolute top-0 left-0 w-[730px] h-[352px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden z-[1] content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
               <div className="relative">
                 {/* Vertical white line */}
-                <div className="w-[3px] h-full bg-white absolute top-0 left-0"></div>
+                <div className="w-[3px] h-full bg-white absolute top-0 right-[250px]"></div>
                 
                 {/* Chart line stroke */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="831.299" height="212.154" fill="none" overflow="visible">

@@ -152,6 +152,11 @@ export default function Home() {
                 <p className="text-[16px] text-[#C8C8C8]">Tailor your portfolio to achieve optimal performance.</p>
               </div>
               
+              {/* Visual - positioned at bottom right */}
+              <div className="absolute bottom-5 right-5 z-10">
+                <img src="/Card 2 Visual.png" alt="Card 2 Visual" className="w-auto h-auto" />
+              </div>
+              
             </div>
 
             {/* Card 3 - Bottom left (730x230px) */}
@@ -230,6 +235,11 @@ export default function Home() {
               <div className="absolute top-5 left-5 z-20 max-w-full">
                 <h3 className="text-[20px] text-white font-normal mb-2">Your Portfolio, Optimized in Real-Time</h3>
                 <p className="text-[16px] text-[#C8C8C8]">Adjusted instantly with market changes to enhance investment efficiency.</p>
+              </div>
+              
+              {/* Visual - positioned at bottom right */}
+              <div className="absolute bottom-5 right-5 z-10">
+                <img src="/Card 4 Visual.png" alt="Card 4 Visual" className="w-auto h-auto" />
               </div>
               
             </div>

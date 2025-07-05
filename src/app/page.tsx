@@ -145,11 +145,13 @@ export default function Home() {
 
             {/* Card 2 - Top right (362x230px) */}
             <div className="absolute top-0 right-0 w-[362px] h-[230px] flex flex-col justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
-              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
-              <div className="text-white text-center">
-                <h3 className="text-lg font-bold mb-2">Real-Time Analysis</h3>
-                <p className="text-gray-300 text-sm">Master live chart reading</p>
+              
+              {/* Text Content - absolute positioned at top */}
+              <div className="absolute top-5 left-5 z-20 max-w-full">
+                <h3 className="text-[20px] text-white font-normal mb-2">Diversified Assets</h3>
+                <p className="text-[16px] text-[#C8C8C8]">Tailor your portfolio to achieve optimal performance.</p>
               </div>
+              
             </div>
 
             {/* Card 3 - Bottom left (730x230px) */}

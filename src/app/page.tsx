@@ -41,6 +41,26 @@ export default function Home() {
               <CountdownTimer targetDate={targetDate} />
             </div>
           </div>
+          
+          {/* Stats section */}
+          <div className="absolute bottom-12 left-0 right-0">
+            <div className="flex justify-center items-center gap-16">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-white mb-1">500+</div>
+                <div className="text-sm text-white/80">Students Trained</div>
+              </div>
+              <div className="w-px h-12 bg-white/20"></div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-white mb-1">₹1,600 Cr</div>
+                <div className="text-sm text-white/80">AUM Managed</div>
+              </div>
+              <div className="w-px h-12 bg-white/20"></div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-white mb-1">7+</div>
+                <div className="text-sm text-white/80">Years Experience</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

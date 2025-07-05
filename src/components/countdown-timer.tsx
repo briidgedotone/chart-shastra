@@ -61,15 +61,15 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
         {timeUnits.map((unit, index) => (
           <div key={unit.label} className="flex items-center gap-3">
             <div
-              className={`bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 min-w-[70px] transition-all duration-300 ${
-                isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-95"
+              className={`bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2 min-w-[70px] transition-all duration-700 ease-out border border-white/5 hover:bg-white/15 hover:border-white/10 ${
+                isLoaded ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 translate-y-4"
               }`}
-              style={{ transitionDelay: `${index * 100}ms` }}
+              style={{ transitionDelay: `${index * 150}ms` }}
             >
-              <div className="relative overflow-hidden h-8">
+              <div className="relative overflow-hidden h-8 flex items-center justify-center">
                 <div
                   key={unit.value}
-                  className="text-2xl font-bold text-white animate-flip-in"
+                  className="text-2xl font-bold text-white animate-slide-up"
                 >
                   {formatTime(unit.value)}
                 </div>
@@ -77,7 +77,10 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
               <div className="text-xs text-white/60 uppercase">{unit.label}</div>
             </div>
             {index < timeUnits.length - 1 && (
-              <span className="text-white/40 text-2xl animate-pulse">:</span>
+              <span 
+                className="text-white/30 text-xl animate-pulse" 
+                style={{ animationDelay: `${(index + 0.5) * 150}ms` }}
+              >:</span>
             )}
           </div>
         ))}

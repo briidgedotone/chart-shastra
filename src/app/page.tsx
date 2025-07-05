@@ -768,7 +768,7 @@ export default function Home() {
                   <div className="relative">
                     {/* Orb behind visual */}
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#cc3d00] rounded-full blur-[80px] opacity-30"></div>
-                    <img src="/card 6 visual.png" alt="Chart Analysis Visual" className="w-auto h-80 opacity-90 relative z-10" />
+                    <img src="/card 6 Visual.png" alt="Chart Analysis Visual" className="w-auto h-80 opacity-90 relative z-10" />
                   </div>
                 </div>
                 <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-[#cc3d00] rounded-full flex items-center justify-center z-10 shadow-lg">

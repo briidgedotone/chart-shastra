@@ -1099,9 +1099,9 @@ export default function Home() {
                 
                 {/* Quiz Button */}
                 <div className="flex justify-center">
-                  <button className="px-8 py-4 bg-[#F3E3DE] text-black rounded-[27px] font-medium hover:bg-[#F3E3DE]/90 transition-colors flex items-center gap-2">
+                  <button className="px-8 py-4 bg-[#F3E3DE] text-black rounded-[27px] font-medium hover:bg-[#F3E3DE]/90 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#F3E3DE]/30 flex items-center gap-2 group">
                     <span>Start Quiz</span>
-                    <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor">
+                    <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor" className="transition-transform duration-300 group-hover:translate-x-1">
                       <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/>
                     </svg>
                   </button>
@@ -1304,10 +1304,10 @@ export default function Home() {
               </div>
               
               <div className="flex flex-col gap-3 w-full">
-                <button className="w-full py-3 px-6 bg-[#ff4d00] text-black rounded-[27px] font-medium hover:bg-[#ff5722] transition-colors flex items-center justify-center">
+                <button className="w-full py-3 px-6 bg-[#ff4d00] text-black rounded-[27px] font-medium hover:bg-[#ff5722] transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#ff4d00]/30 flex items-center justify-center">
                   Join Now
                 </button>
-                <button className="w-full py-3 px-6 border border-white text-white rounded-[27px] font-medium hover:bg-white hover:text-black transition-colors flex items-center justify-center">
+                <button className="w-full py-3 px-6 border border-white text-white rounded-[27px] font-medium hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-white/20 flex items-center justify-center">
                   Talk to Us
                 </button>
               </div>
@@ -1381,9 +1381,9 @@ export default function Home() {
                 </div>
                 
                 {/* Button */}
-                <button className="w-full py-3 px-6 bg-[#ff4d00] text-black rounded-[27px] font-medium hover:bg-[#ff5722] transition-colors flex items-center justify-center gap-2">
+                <button className="w-full py-3 px-6 bg-[#ff4d00] text-black rounded-[27px] font-medium hover:bg-[#ff5722] transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#ff4d00]/30 flex items-center justify-center gap-2 group">
                   <span>Enroll Now</span>
-                  <svg width="16" height="16" viewBox="0 0 256 256" fill="white">
+                  <svg width="16" height="16" viewBox="0 0 256 256" fill="white" className="transition-transform duration-300 group-hover:translate-x-1">
                     <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/>
                   </svg>
                 </button>
@@ -1492,19 +1492,19 @@ export default function Home() {
               {/* CTA Buttons */}
               <div className="flex gap-4 justify-center">
                 <button 
-                  className="px-8 py-4 rounded-[20px] font-medium flex items-center gap-2 hover:opacity-90 transition-opacity"
+                  className="px-8 py-4 rounded-[20px] font-medium flex items-center gap-2 transition-all duration-300 hover:scale-105 hover:shadow-lg group"
                   style={{
                     backgroundColor: 'rgba(255, 255, 255, 0.85)',
                     color: 'rgb(0, 0, 0)'
                   }}
                 >
                   <span>Join Now</span>
-                  <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor">
+                  <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor" className="transition-transform duration-300 group-hover:translate-x-1">
                     <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/>
                   </svg>
                 </button>
                 <button 
-                  className="px-8 py-4 rounded-[20px] font-medium flex items-center gap-2 hover:opacity-90 transition-opacity"
+                  className="px-8 py-4 rounded-[20px] font-medium flex items-center gap-2 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-white/25 group"
                   style={{
                     backgroundColor: 'rgba(255, 255, 255, 0.15)',
                     color: 'rgb(255, 255, 255)',
@@ -1512,7 +1512,7 @@ export default function Home() {
                   }}
                 >
                   <span>Talk to Us</span>
-                  <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor">
+                  <svg width="16" height="16" viewBox="0 0 256 256" fill="currentColor" className="transition-transform duration-300 group-hover:translate-x-1">
                     <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/>
                   </svg>
                 </button>

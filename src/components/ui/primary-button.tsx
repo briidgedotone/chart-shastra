@@ -8,7 +8,7 @@ export function PrimaryButton({ children, onClick, className = "" }: PrimaryButt
   return (
     <button 
       onClick={onClick}
-      className={`flex items-center gap-2 text-sm text-black bg-[#F3E3DE] border border-[#F3E3DE] rounded-full px-[15px] py-[8px] pr-[6px] pl-[15px] transition-colors ${className}`}
+      className={`flex items-center gap-2 text-sm text-black bg-[#F3E3DE] border border-[#F3E3DE] rounded-full px-[15px] py-[8px] pr-[6px] pl-[15px] transition-all duration-300 hover:bg-[#F3E3DE]/90 hover:scale-105 hover:shadow-lg hover:shadow-[#F3E3DE]/30 ${className}`}
     >
       {children}
       <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center">

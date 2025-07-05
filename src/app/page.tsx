@@ -238,7 +238,7 @@ export default function Home() {
               </div>
               
               {/* Visual - positioned at bottom right */}
-              <div className="absolute bottom-5 right-5 z-10">
+              <div className="absolute bottom-[-129px] right-[-27px] z-10">
                 <img src="/Card 4 Visual.png" alt="Card 4 Visual" className="w-auto h-auto" />
               </div>
               

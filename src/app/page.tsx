@@ -152,8 +152,8 @@ export default function Home() {
                 <p className="text-[16px] text-[#C8C8C8]">Tailor your portfolio to achieve optimal performance.</p>
               </div>
               
-              {/* Visual - positioned at bottom right */}
-              <div className="absolute bottom-5 right-5 z-10">
+              {/* Visual container - below text, centered */}
+              <div className="absolute top-[100px] left-0 right-0 flex justify-center items-center z-10">
                 <img src="/Card 2 Visual.png" alt="Card 2 Visual" className="w-auto h-auto scale-90" />
               </div>
               

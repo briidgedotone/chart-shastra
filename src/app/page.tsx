@@ -106,7 +106,7 @@ export default function Home() {
                 <div className="w-[3px] h-full bg-white absolute top-[75px] right-[280px] z-10"></div>
                 
                 {/* Circle at top of line */}
-                <div className="w-[61px] h-[61px] bg-[#B85C00] bg-opacity-35 rounded-full absolute top-[44px] right-[309px] z-10"></div>
+                <div className="w-[61px] h-[61px] bg-[#B85C00] bg-opacity-35 rounded-full absolute top-[44px] right-[251px] z-10"></div>
                 
                 {/* Chart line stroke */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="831.299" height="212.154" fill="none" overflow="visible">

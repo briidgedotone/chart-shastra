@@ -118,7 +118,7 @@ export default function Home() {
             </div>
 
             {/* Card 3 - Bottom left (730x230px) */}
-            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013] relative">
               
               {/* Text Content - absolute positioned at top */}
               <div className="absolute top-5 left-5 z-20 max-w-[244px]">
@@ -127,10 +127,10 @@ export default function Home() {
               </div>
               
               {/* Lightning Visual Container - absolute positioned */}
-              <div className="absolute top-5 right-[-60px] w-[400px] h-full">
+              <div className="absolute top-5 right-5 w-[400px] h-full">
                 
                 {/* Circle glow effect with blur */}
-                <div className="absolute top-[50px] left-[50px] w-[150px] h-[150px] bg-orange-500/70 rounded-full blur-3xl z-[5] pointer-events-none">
+                <div className="absolute top-[50px] left-[50px] w-[150px] h-[150px] bg-orange-500 rounded-full blur-3xl z-[5] pointer-events-none">
                 </div>
                 
                 {/* Orange lightning bolt - middle layer */}

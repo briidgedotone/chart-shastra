@@ -86,12 +86,12 @@ export default function Home() {
       </div>
       
       {/* Why MTP? Section */}
-      <section className="py-20">
+      <section className="pt-[250px] pb-20">
         <div className="max-w-[1100px] mx-auto">
           
           {/* Section Header */}
           <div className="text-center mb-9 px-6">
-            <h2 className="text-[48px] font-bold text-white mb-4 tracking-tight">
+            <h2 className="text-[44px] font-bold text-white mb-4 tracking-tight">
               Why <span className="text-[#F3E3DE]">MTP</span>?
             </h2>
           </div>

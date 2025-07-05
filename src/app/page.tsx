@@ -101,11 +101,17 @@ export default function Home() {
             
             {/* Card 1 - Top left (730x352px) */}
             <div className="absolute top-0 left-0 w-[730px] h-[352px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden z-[1] content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
-              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
-              <div className="text-white">
-                <h3 className="text-2xl font-bold mb-4">Pure Price Action</h3>
-                <p className="text-gray-300">Learn to read markets through pure price and volume action. No confusing indicators, no predictions - just clean, objective analysis.</p>
-              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="831.299" height="299.385" fill="none" overflow="visible">
+                <g>
+                  <defs>
+                    <linearGradient id="idid_pUg98B20dg-1619420498" x1="0.49751243781094523" x2="0.5024875621890548" y1="0" y2="1">
+                      <stop offset="0" stopColor="rgb(255, 77, 0)" stopOpacity="1"></stop>
+                      <stop offset="1" stopColor="rgba(23, 23, 23, 0.7)" stopOpacity="0.7"></stop>
+                    </linearGradient>
+                  </defs>
+                  <path d="M 831.299 299.385 L 0 299.385 L 0 212.154 L 84.53 212.154 L 107.681 192.769 L 121.141 192.769 L 137.832 179.308 L 163.675 179.308 L 178.212 165.308 L 192.749 165.308 L 207.825 182 L 237.975 182 L 268.664 157.231 L 287.509 157.231 L 306.353 145.385 L 337.042 145.385 L 423.725 74.846 L 610.014 74.846 L 654.163 33.385 L 673.546 33.385 L 693.467 13.462 L 706.388 13.462 L 718.233 19.923 L 735.462 19.923 L 755.383 0 L 831.299 0 Z" fill="url(#idid_pUg98B20dg-1619420498)"></path>
+                </g>
+              </svg>
             </div>
 
             {/* Card 2 - Top right (362x230px) */}

@@ -10,7 +10,7 @@ export function Navbar() {
         
         <div className="flex items-center gap-[30px]">
           <a href="#home" className="text-sm text-white hover:text-[#F3E3DE] transition-colors">Home</a>
-          <a href="#what-youll-learn" className="text-sm text-white hover:text-[#F3E3DE] transition-colors">What You'll Learn</a>
+          <a href="#what-youll-learn" className="text-sm text-white hover:text-[#F3E3DE] transition-colors">What You&apos;ll Learn</a>
           <a href="#testimonials" className="text-sm text-white hover:text-[#F3E3DE] transition-colors">Testimonials</a>
           <a href="#blogs" className="text-sm text-white hover:text-[#F3E3DE] transition-colors">Blogs</a>
           <a href="#faqs" className="text-sm text-white hover:text-[#F3E3DE] transition-colors">FAQs</a>

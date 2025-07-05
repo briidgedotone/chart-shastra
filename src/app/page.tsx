@@ -101,6 +101,13 @@ export default function Home() {
             
             {/* Card 1 - Top left (730x352px) */}
             <div className="absolute top-0 left-0 w-[730px] h-[352px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden z-[1] content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+              
+              {/* Text Content - absolute positioned at top */}
+              <div className="absolute top-5 left-5 z-20 max-w-[244px]">
+                <h3 className="text-[20px] text-white font-normal mb-2">Precision-Driven Portfolio Growth</h3>
+                <p className="text-[16px] text-[#C8C8C8]">Every move guided by data and insights for smarter portfolio growth.</p>
+              </div>
+              
               <div className="relative">
                 {/* Vertical white line */}
                 <div className="w-[3px] h-full bg-white absolute top-[75px] right-[280px] z-10"></div>

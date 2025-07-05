@@ -118,11 +118,19 @@ export default function Home() {
             </div>
 
             {/* Card 3 - Bottom left (730x230px) */}
-            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
-              <div className="relative -translate-y-16 translate-x-8">
+            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-visible content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+              
+              {/* Text Content - absolute positioned at top */}
+              <div className="absolute top-5 left-5 z-20 max-w-[244px]">
+                <h3 className="text-[20px] text-white font-normal mb-2">Maximize Returns, Minimize Effort</h3>
+                <p className="text-[16px] text-[#C8C8C8]">A fully automated investment system that saves you time and worry.</p>
+              </div>
+              
+              {/* Lightning Visual Container - absolute positioned */}
+              <div className="absolute top-5 right-[-60px] w-[400px] h-full">
                 
-                {/* Radial glow effect - top layer with blend mode */}
-                <div className="absolute top-0 left-0 w-[200%] h-[400px] block overflow-visible z-[15] rounded-none mix-blend-screen pointer-events-none" style={{background: 'radial-gradient(60% 90% at 50% 84.2%, rgba(209, 63, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%)'}}>
+                {/* Circle glow effect with blur */}
+                <div className="absolute top-[50px] left-[50px] w-[150px] h-[150px] bg-orange-500/30 rounded-full blur-3xl z-[5] pointer-events-none">
                 </div>
                 
                 {/* Orange lightning bolt - middle layer */}

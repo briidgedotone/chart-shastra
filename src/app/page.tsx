@@ -47,11 +47,8 @@ export default function Home() {
             <div className="py-12">
               <div className="flex justify-center items-center gap-20">
                 <div className="text-center group">
-                  <div className="relative">
-                    <div className="text-3xl font-bold text-white mb-2 transition-transform duration-300 group-hover:scale-110">
-                      500<span className="text-[#F3E3DE]">+</span>
-                    </div>
-                    <div className="absolute -inset-4 bg-white/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="text-3xl font-bold text-white mb-2 transition-transform duration-300 group-hover:scale-110">
+                    500<span className="text-[#F3E3DE]">+</span>
                   </div>
                   <div className="text-sm text-white/70 uppercase tracking-wider font-medium">Students Trained</div>
                 </div>
@@ -59,11 +56,8 @@ export default function Home() {
                 <div className="h-16 w-px bg-gradient-to-b from-transparent via-white/30 to-transparent"></div>
                 
                 <div className="text-center group">
-                  <div className="relative">
-                    <div className="text-3xl font-bold text-white mb-2 transition-transform duration-300 group-hover:scale-110">
-                      <span className="text-[#F3E3DE]">₹</span>1,600<span className="text-xl ml-1">Cr</span>
-                    </div>
-                    <div className="absolute -inset-4 bg-white/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="text-3xl font-bold text-white mb-2 transition-transform duration-300 group-hover:scale-110">
+                    <span className="text-[#F3E3DE]">₹</span>1,600<span className="text-xl ml-1">Cr</span>
                   </div>
                   <div className="text-sm text-white/70 uppercase tracking-wider font-medium">AUM Managed</div>
                 </div>
@@ -71,11 +65,8 @@ export default function Home() {
                 <div className="h-16 w-px bg-gradient-to-b from-transparent via-white/30 to-transparent"></div>
                 
                 <div className="text-center group">
-                  <div className="relative">
-                    <div className="text-3xl font-bold text-white mb-2 transition-transform duration-300 group-hover:scale-110">
-                      7<span className="text-[#F3E3DE]">+</span>
-                    </div>
-                    <div className="absolute -inset-4 bg-white/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                  <div className="text-3xl font-bold text-white mb-2 transition-transform duration-300 group-hover:scale-110">
+                    7<span className="text-[#F3E3DE]">+</span>
                   </div>
                   <div className="text-sm text-white/70 uppercase tracking-wider font-medium">Years Experience</div>
                 </div>

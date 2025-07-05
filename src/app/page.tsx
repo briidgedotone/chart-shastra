@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       
       {/* Hero section with full-width background */}
-      <div className="h-screen w-full bg-cover bg-center bg-no-repeat relative" style={{backgroundImage: "url('/ChatGPT Image Jul 5, 2025, 04_57_09 AM.png')"}}>
+      <div className="h-screen w-full bg-cover bg-center bg-no-repeat relative border-b border-white/10" style={{backgroundImage: "url('/ChatGPT Image Jul 5, 2025, 04_57_09 AM.png')"}}>
         {/* Main content container */}
         <div className="max-w-[1100px] mx-auto relative z-20 h-full">
           {/* Hero content */}
@@ -85,96 +85,61 @@ export default function Home() {
         </div>
       </div>
       
-      {/* About Chart Shastra Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1100px] mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            
-            {/* About Nikhil Gayam */}
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">About Nikhil Gayam</h2>
-              <div className="space-y-4 text-gray-700 leading-relaxed">
-                <p>
-                  With over 7 years of experience in the financial markets, Nikhil Gayam has established himself as a leading authority in technical analysis and trading education.
-                </p>
-                <p>
-                  His unique approach combines traditional chart analysis with modern trading psychology, helping traders develop both the technical skills and mental discipline required for consistent success.
-                </p>
-                <p>
-                  Nikhil has successfully managed over ₹1,600 crores in assets and has trained more than 500 students, many of whom have gone on to become successful independent traders.
-                </p>
-              </div>
-              
-              <div className="mt-8 p-6 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Credentials & Experience</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
-                    7+ Years Market Experience
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
-                    ₹1,600+ Cr AUM Managed
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
-                    500+ Students Trained
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
-                    Expert in Technical Analysis
-                  </li>
-                </ul>
-              </div>
-            </div>
-            
-            {/* Why Learn from Chart Shastra */}
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Learn from Chart Shastra?</h2>
-              <div className="space-y-6">
-                
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">1</div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Practical Approach</h3>
-                    <p className="text-gray-700">Learn real-world trading strategies that are tested and proven in live markets, not just theoretical concepts.</p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">2</div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Comprehensive Curriculum</h3>
-                    <p className="text-gray-700">From basic chart reading to advanced trading psychology, our curriculum covers everything you need to succeed.</p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">3</div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Personalized Mentorship</h3>
-                    <p className="text-gray-700">Get individual attention and feedback to accelerate your learning and address your specific challenges.</p>
-                  </div>
-                </div>
-                
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">4</div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Proven Track Record</h3>
-                    <p className="text-gray-700">Join a community of successful traders who have transformed their financial lives through our methods.</p>
-                  </div>
-                </div>
-                
-              </div>
-              
-              <div className="mt-8">
-                <PrimaryButton>Start Your Journey</PrimaryButton>
-              </div>
-            </div>
-            
+      {/* Why MTP? Section */}
+      <section className="py-20">
+        <div className="max-w-[1100px] mx-auto">
+          
+          {/* Section Header */}
+          <div className="text-center mb-16 px-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
+              Why <span className="text-[#F3E3DE]">MTP</span>?
+            </h2>
           </div>
+
+          {/* Bento Container */}
+          <div className="w-full h-[593px] overflow-visible z-[1] p-0 gap-2 relative">
+            
+            {/* Card 1 - Top left (730x352px) */}
+            <div className="absolute top-0 left-0 w-[730px] h-[352px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden z-[1] content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
+              <div className="text-white">
+                <h3 className="text-2xl font-bold mb-4">Pure Price Action</h3>
+                <p className="text-gray-300">Learn to read markets through pure price and volume action. No confusing indicators, no predictions - just clean, objective analysis.</p>
+              </div>
+            </div>
+
+            {/* Card 2 - Top right (362x230px) */}
+            <div className="absolute top-0 right-0 w-[362px] h-[230px] flex flex-col justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
+              <div className="text-white text-center">
+                <h3 className="text-lg font-bold mb-2">Real-Time Analysis</h3>
+                <p className="text-gray-300 text-sm">Master live chart reading</p>
+              </div>
+            </div>
+
+            {/* Card 3 - Bottom left (730x230px) */}
+            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
+              <div className="text-white">
+                <h3 className="text-xl font-bold mb-3">High-Probability Setups</h3>
+                <p className="text-gray-300">Identify and execute trades with clarity and confidence using proven market structure principles.</p>
+              </div>
+            </div>
+
+            {/* Card 4 - Bottom right (362x352px) */}
+            <div className="absolute bottom-0 right-0 w-[362px] h-[352px] flex flex-col justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
+              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
+              <div className="text-white text-center">
+                <h3 className="text-lg font-bold mb-4">Market Structure Mastery</h3>
+                <p className="text-gray-300">Understand how markets really move through deep analysis of structure and price action patterns.</p>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </section>
+      
     </div>
   );
 }

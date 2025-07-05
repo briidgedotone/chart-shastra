@@ -44,7 +44,9 @@
 
 body {
   font-family: var(--font-inter), Arial, Helvetica, sans-serif;
-  background-color: #1a1a1a;
+  background-color: #171717;
+  background-image: radial-gradient(circle, #4A2C1E 1px, transparent 1px);
+  background-size: 32px 32px;
 }
 
 @keyframes slide-up {

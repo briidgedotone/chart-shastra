@@ -90,8 +90,8 @@ export default function Home() {
         <div className="max-w-[1100px] mx-auto">
           
           {/* Section Header */}
-          <div className="text-center mb-16 px-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tight">
+          <div className="text-center mb-10 px-6">
+            <h2 className="text-[42px] font-bold text-white mb-4 tracking-tight">
               Why <span className="text-[#F3E3DE]">MTP</span>?
             </h2>
           </div>

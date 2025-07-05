@@ -118,7 +118,7 @@ export default function Home() {
             </div>
 
             {/* Card 3 - Bottom left (730x230px) */}
-            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013] relative">
+            <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
               
               {/* Text Content - absolute positioned at top */}
               <div className="absolute top-5 left-5 z-20 max-w-[244px]">

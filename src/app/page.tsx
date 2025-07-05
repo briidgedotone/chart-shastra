@@ -105,8 +105,15 @@ export default function Home() {
                 {/* Vertical white line */}
                 <div className="w-[3px] h-full bg-white absolute top-[75px] right-[280px] z-10"></div>
                 
-                {/* Circle at top of line */}
+                {/* Concentric circles at top of line */}
+                {/* Outer circle - 61px B85C00 35% opacity */}
                 <div className="w-[61px] h-[61px] bg-[#B85C00] bg-opacity-35 rounded-full absolute top-[44px] right-[251px] z-10"></div>
+                
+                {/* Middle circle - 39px FF4D00 40% opacity */}
+                <div className="w-[39px] h-[39px] bg-[#FF4D00] bg-opacity-40 rounded-full absolute top-[55px] right-[262px] z-11"></div>
+                
+                {/* Inner circle - 15px white */}
+                <div className="w-[15px] h-[15px] bg-white rounded-full absolute top-[67px] right-[274px] z-12"></div>
                 
                 {/* Chart line stroke */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="831.299" height="212.154" fill="none" overflow="visible">

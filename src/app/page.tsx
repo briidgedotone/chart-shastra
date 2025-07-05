@@ -84,6 +84,97 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
+      {/* About Chart Shastra Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-[1100px] mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+            
+            {/* About Nikhil Gayam */}
+            <div>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">About Nikhil Gayam</h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+                <p>
+                  With over 7 years of experience in the financial markets, Nikhil Gayam has established himself as a leading authority in technical analysis and trading education.
+                </p>
+                <p>
+                  His unique approach combines traditional chart analysis with modern trading psychology, helping traders develop both the technical skills and mental discipline required for consistent success.
+                </p>
+                <p>
+                  Nikhil has successfully managed over ₹1,600 crores in assets and has trained more than 500 students, many of whom have gone on to become successful independent traders.
+                </p>
+              </div>
+              
+              <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Credentials & Experience</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
+                    7+ Years Market Experience
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
+                    ₹1,600+ Cr AUM Managed
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
+                    500+ Students Trained
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="w-2 h-2 bg-[#F3E3DE] rounded-full"></div>
+                    Expert in Technical Analysis
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            {/* Why Learn from Chart Shastra */}
+            <div>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Learn from Chart Shastra?</h2>
+              <div className="space-y-6">
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">1</div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Practical Approach</h3>
+                    <p className="text-gray-700">Learn real-world trading strategies that are tested and proven in live markets, not just theoretical concepts.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">2</div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Comprehensive Curriculum</h3>
+                    <p className="text-gray-700">From basic chart reading to advanced trading psychology, our curriculum covers everything you need to succeed.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">3</div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Personalized Mentorship</h3>
+                    <p className="text-gray-700">Get individual attention and feedback to accelerate your learning and address your specific challenges.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#F3E3DE] rounded-full flex items-center justify-center text-black font-bold">4</div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Proven Track Record</h3>
+                    <p className="text-gray-700">Join a community of successful traders who have transformed their financial lives through our methods.</p>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div className="mt-8">
+                <PrimaryButton>Start Your Journey</PrimaryButton>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

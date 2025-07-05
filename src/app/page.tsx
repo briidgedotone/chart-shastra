@@ -86,7 +86,7 @@ export default function Home() {
       </div>
       
       {/* Why MTP? Section */}
-      <section className="pt-[250px] pb-20">
+      <section className="pt-[180px] pb-20">
         <div className="max-w-[1100px] mx-auto">
           
           {/* Section Header */}

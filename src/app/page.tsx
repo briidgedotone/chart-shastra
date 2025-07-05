@@ -119,10 +119,62 @@ export default function Home() {
 
             {/* Card 3 - Bottom left (730x230px) */}
             <div className="absolute bottom-0 left-0 w-[730px] h-[230px] flex flex-row justify-center items-center p-5 bg-[#1c1c1c] overflow-hidden content-center flex-nowrap gap-[10px] rounded-[10px] border border-[#3e2013]">
-              <div className="w-3 h-3 bg-[#F3E3DE] rounded-full"></div>
-              <div className="text-white">
-                <h3 className="text-xl font-bold mb-3">High-Probability Setups</h3>
-                <p className="text-gray-300">Identify and execute trades with clarity and confidence using proven market structure principles.</p>
+              <div className="relative -translate-y-16 translate-x-8">
+                
+                {/* Radial glow effect - top layer with blend mode */}
+                <div className="absolute top-0 left-0 w-[200%] h-[400px] block overflow-visible z-[15] rounded-none mix-blend-screen pointer-events-none" style={{background: 'radial-gradient(60% 90% at 50% 84.2%, rgba(209, 63, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%)'}}>
+                </div>
+                
+                {/* Orange lightning bolt - middle layer */}
+                <div className="absolute top-0 left-0 z-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="204.5" height="276.5" fill="none" overflow="visible">
+                    <g>
+                      <defs>
+                        <path d="M 161.642 6.96 C 162.165 5.001 159.777 3.597 158.32 5.006 L 3.558 154.562 C 2.265 155.811 3.149 158 4.948 158 L 69.838 158 C 71.885 158 73.331 160.006 72.684 161.949 L 37.11 268.671 C 36.446 270.661 38.903 272.2 40.404 270.735 L 199.23 115.646 C 201.154 113.767 199.824 110.5 197.134 110.5 L 136.604 110.5 C 135.29 110.5 134.333 109.254 134.672 107.984 Z" id="a1002z"></path>
+                        <filter id="a1004z" filterUnits="objectBoundingBox" x="-13.8%" y="-10.6%" width="127.7%" height="121.2%">
+                          <feOffset dx="0" dy="1" in="SourceAlpha" result="a1007z"></feOffset>
+                          <feGaussianBlur stdDeviation="6.5" in="a1007z" result="a1008z"></feGaussianBlur>
+                          <feFlood floodColor="rgba(255, 72, 0, 0.72)" result="a1009z"></feFlood>
+                          <feComposite in="a1009z" in2="a1008z" operator="in" result="a1005z"></feComposite>
+                        </filter>
+                      </defs>
+                      <mask id="a1006z" x="-13.8%" y="-10.6%" width="127.7%" height="121.2%">
+                        <rect x="-13.8%" y="-10.6%" width="127.7%" height="121.2%" fill="white"></rect>
+                        <use href="#a1002z" fill="black"></use>
+                      </mask>
+                      <g filter="url(#a1004z)" mask="url(#a1006z)">
+                        <use fill="black" stroke="black" strokeOpacity="0" strokeWidth="0" xlinkHref="#a1002z" clipPath="url(#a1003z)"></use>
+                      </g>
+                      <use xlinkHref="#a1002z" fill="rgb(255, 77, 0)" clipPath="url(#a1003z)"></use>
+                    </g>
+                  </svg>
+                </div>
+                
+                {/* White lightning bolt with glow - top layer */}
+                <div className="absolute -top-[44px] -left-[28px] z-10">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="239" height="304" fill="none">
+                    <g>
+                      <defs>
+                        <path d="M 177.642 20.46 C 178.165 18.501 175.777 17.097 174.32 18.506 L 19.558 168.062 C 18.265 169.311 19.149 171.5 20.948 171.5 L 85.838 171.5 C 87.885 171.5 89.331 173.506 88.684 175.449 L 53.11 282.171 C 52.446 284.161 54.903 285.7 56.404 284.235 L 215.23 129.146 C 217.154 127.267 215.824 124 213.134 124 L 152.604 124 C 151.29 124 150.333 122.754 150.672 121.484 Z" id="a1010z"></path>
+                        <filter id="a1012z" filterUnits="objectBoundingBox" x="-21.3%" y="-15.7%" width="142.6%" height="131.5%">
+                          <feOffset dx="0" dy="0" in="SourceAlpha" result="a1015z"></feOffset>
+                          <feGaussianBlur stdDeviation="10" in="a1015z" result="a1016z"></feGaussianBlur>
+                          <feFlood floodColor="rgb(255, 198, 176)" result="a1017z"></feFlood>
+                          <feComposite in="a1017z" in2="a1016z" operator="in" result="a1013z"></feComposite>
+                        </filter>
+                      </defs>
+                      <mask id="a1014z" x="-21.3%" y="-15.7%" width="142.6%" height="131.5%">
+                        <rect x="-21.3%" y="-15.7%" width="142.6%" height="131.5%" fill="white"></rect>
+                        <use href="#a1010z" fill="black"></use>
+                      </mask>
+                      <g filter="url(#a1012z)" mask="url(#a1014z)">
+                        <use fill="black" stroke="black" strokeOpacity="0" strokeWidth="0" xlinkHref="#a1010z" clipPath="url(#a1011z)"></use>
+                      </g>
+                      <use xlinkHref="#a1010z" fill="rgb(255, 255, 255)" clipPath="url(#a1011z)"></use>
+                    </g>
+                  </svg>
+                </div>
+                
               </div>
             </div>
 

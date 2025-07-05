@@ -127,7 +127,7 @@ export default function Home() {
               </div>
               
               {/* Lightning Visual Container - absolute positioned */}
-              <div className="absolute top-5 right-5 w-[400px] h-full">
+              <div className="absolute top-[40px] right-[-55px] w-[400px] h-full">
                 
                 {/* Circle glow effect with blur */}
                 <div className="absolute top-[50px] left-[50px] w-[150px] h-[150px] bg-orange-500 rounded-full blur-3xl z-[5] pointer-events-none">

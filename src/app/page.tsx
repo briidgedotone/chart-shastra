@@ -121,9 +121,6 @@ export default function Home() {
                 </svg>
               </div>
               
-              <div>
-                <div className="w-[3px] h-[223px] block bg-gradient-to-b from-white to-transparent overflow-hidden z-0"></div>
-              </div>
             </div>
 
             {/* Card 2 - Top right (362x230px) */}

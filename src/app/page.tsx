@@ -105,6 +105,9 @@ export default function Home() {
                 {/* Vertical white line */}
                 <div className="w-[3px] h-full bg-white absolute top-[75px] right-[280px] z-10"></div>
                 
+                {/* Circle at top of line */}
+                <div className="w-[61px] h-[61px] bg-[#B85C00] bg-opacity-35 rounded-full absolute top-[75px] right-[309px] z-10"></div>
+                
                 {/* Chart line stroke */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="831.299" height="212.154" fill="none" overflow="visible">
                   <path d="M 0 212.154 L 84.53 212.154 L 107.681 192.769 L 121.141 192.769 L 137.832 179.308 L 163.675 179.308 L 178.212 165.308 L 192.749 165.308 L 207.825 182 L 237.975 182 L 268.664 157.231 L 287.509 157.231 L 306.353 145.385 L 337.042 145.385 L 423.725 74.846 L 610.014 74.846 L 654.163 33.385 L 673.546 33.385 L 693.467 13.462 L 706.388 13.462 L 718.233 19.923 L 735.462 19.923 L 755.383 0 L 831.299 0" fill="transparent" strokeWidth="4.31" stroke="rgb(255, 77, 0)"></path>

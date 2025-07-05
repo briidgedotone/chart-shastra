@@ -237,8 +237,8 @@ export default function Home() {
                 <p className="text-[16px] text-[#C8C8C8]">Adjusted instantly with market changes to enhance investment efficiency.</p>
               </div>
               
-              {/* Visual - positioned at bottom right corner */}
-              <div className="absolute bottom-0 right-0 z-10">
+              {/* Visual - positioned at bottom right */}
+              <div className="absolute bottom-5 right-5 z-10">
                 <img src="/Card 4 Visual.png" alt="Card 4 Visual" className="w-auto h-auto" />
               </div>
               

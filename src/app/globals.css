@@ -47,6 +47,21 @@ body {
   background-color: #1a1a1a;
 }
 
+@keyframes flip-in {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-flip-in {
+  animation: flip-in 0.3s ease-out;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
